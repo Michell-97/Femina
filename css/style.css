@@ -1,0 +1,52 @@
+/* PALETA DE COLORES */
+.bg-1 { background: #ffcccc; }
+.bg-2 { background: #e9b5fa; }
+.bg-3 { background: #9AECDB; }
+.bg-4 { background: #fcf77a; }
+.bg-5 { background: #b4faca; }
+
+.color-1 { color: #ffcccc; }
+.color-2 { color: #e9b5fa; }
+.color-3 { color: #8ef8e3; }
+.color-4 { color: #faf570; }
+.color-5 { color: #9cf8b9; }
+.color-6 { color: #be2edd; }
+
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 40px;
+}
+
+.nav-link{
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+
+#logo {
+  border-radius: 50px;
+}
+.carousel img {
+  height: 80vh;
+}
+
+footer {
+  background-image: url(https://image.freepik.com/foto-gratis/formas-laterales-mujer-sosteniendo-megafono-flores_23-2148405260.jpg);
+  background-size: cover;
+  height: 40vh;
+}
+
+footer i{
+  text-shadow: 2px 2px 2px black;
+}
+
+footer li{
+  list-style: none;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
