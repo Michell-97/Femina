@@ -17,13 +17,26 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+nav li a{
+  color: black;
+  text-shadow: 2px 2px 2px aqua;
+  border-bottom: 4px double rgb(248, 11, 248);
+}
+
+nav li a:hover{
+  color: white;
+  border-bottom: 6px double aqua;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #faf441;
+}
+
 .navbar-brand {
   font-family: "Sansita Swashed", cursive;
   font-size: 40px;
 }
 
 .nav-link{
-  font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif !important;
   font-size: 20px;
 }
 
@@ -33,20 +46,61 @@ body {
 }
 .carousel img {
   height: 80vh;
+  opacity: 1;
+}
+
+/* main div img{
+  height: 40vh;
+} */
+
+.carta{
+  height: 40vh;
+  cursor: pointer;
+  opacity: .6;
+  transition: all .8s;
+}
+
+.carta:hover{
+  opacity: 1;
+  transition: all .6s;
+  transform: scale(1.2); 
+}
+
+.img-container{
+  overflow: hidden;
+}
+
+.card-footer{
+  border: none;
+  background: none;
+}
+
+.btn{
+  font-weight: bold;
 }
 
 footer {
   background-image: url(https://image.freepik.com/foto-gratis/formas-laterales-mujer-sosteniendo-megafono-flores_23-2148405260.jpg);
   background-size: cover;
-  height: 40vh;
+  height: 60vh;
 }
 
 footer i{
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 3px 2px 3px black;
+}
+
+footer h2{
+  text-shadow: 3px 2px 3px white;
+  color: darkorange;
 }
 
 footer li{
   list-style: none;
   padding-left: 60px;
   margin-bottom: 20px;
+}
+
+.fondo{
+  background-color: transparent !important;
+  border: none;
 }
